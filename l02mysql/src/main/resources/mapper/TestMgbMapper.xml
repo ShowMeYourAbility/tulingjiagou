@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.llmcu.tulingjiagou.l02mysql.dao.TestMgbDAO">
+    <resultMap id="BaseResultMap" type="com.llmcu.tulingjiagou.l02mysql.pojo.TestMgb">
+        <id column="id" jdbcType="BIGINT" property="id"/>
+        <result column="name" jdbcType="VARCHAR" property="name"/>
+        <result column="is_chinese" jdbcType="TINYINT" property="chineseOrNot"/>
+        <result column="addr" jdbcType="VARCHAR" property="addr"/>
+    </resultMap>
+
+    <insert id="insert" parameterType="com.llmcu.tulingjiagou.l02mysql.pojo.TestMgb"
+            keyProperty="id" useGeneratedKeys="true">
+        INSERT INTO test_mgb
+        (
+        <trim suffixOverrides=",">
+            <if test="name != null and name !='' ">
+                name,
+            </if>
+            <if test="chineseOrNot != null">
+                is_chinese,
+            </if>
+            <if test="addr != null and addr !='' ">
+                addr,
+            </if>
+        </trim>
+        )
+        VALUES
+        (
+        <trim suffixOverrides=",">
+            <if test="name != null and name !='' ">
+                #{name},
+            </if>
+            <if test="chineseOrNot != null">
+                #{chineseOrNot},
+            </if>
+            <if test="addr != null and addr !='' ">
+                #{addr},
+            </if>
+        </trim>
+        )
+    </insert>
+</mapper>

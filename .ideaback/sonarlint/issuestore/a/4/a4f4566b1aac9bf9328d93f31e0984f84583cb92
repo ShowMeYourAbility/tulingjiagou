@@ -1,0 +1,19 @@
+
+U	java:S106J"9Replace this use of System.out or System.err by a logger.(ÝýËø8Õ™ð“ò/
+T	java:S106D"9Replace this use of System.out or System.err by a logger.(ð÷†T8Õ™ð“ò/
+W	java:S125"<This block of commented-out lines of code should be removed.(•š{8Õ™ð“ò/
+`
+java:S21849"CCast one of the operands of this subtraction operation to a "long".(’«´‡8Õ™ð“ò/
+T	java:S106<"9Replace this use of System.out or System.err by a logger.(ð÷†T8Õ™ð“ò/
+Z	java:S1060"9Replace this use of System.out or System.err by a logger.(ÿÈÝ«úÿÿÿÿ8Õ™ð“ò/
+L
+java:S1144)"/Remove this unused private "luaOperate" method.(Ùíð”8Õ™ð“ò/
+Z	java:S106Y"9Replace this use of System.out or System.err by a logger.(ºÝµÌüÿÿÿÿ8Õ™ð“ò/
+]	java:S125"<This block of commented-out lines of code should be removed.(»´ûÑÿÿÿÿÿ8ŒÑÞ”ò/
+l
+java:S1192V"JDefine a constant instead of duplicating this literal "orderlist" 3 times.(€Ù•Êúÿÿÿÿ8Õ™ð“ò/
+h
+java:S1192R"KDefine a constant instead of duplicating this literal "433c:g:cnt" 3 times.(í‚æÅ8Õ™ð“ò/
+Z	java:S106I"9Replace this use of System.out or System.err by a logger.(Í˜‚”úÿÿÿÿ8Õ™ð“ò/
+Z	java:S106%"9Replace this use of System.out or System.err by a logger.(ÿÈÝ«úÿÿÿÿ8Õ™ð“ò/
+T	java:S106S"9Replace this use of System.out or System.err by a logger.(íÏÍ8Õ™ð“ò/

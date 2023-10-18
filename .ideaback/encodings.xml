@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/l01jvm/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/l02mysql/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/l0901redisspringboot/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/l0902redislock/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/l0903singlerediscache/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/l0904clusterrediscache/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/l0905clusterrediscache2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/l09redis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/l1001zookeeperclient/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/l1002curator/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

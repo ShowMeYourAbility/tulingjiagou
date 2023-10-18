@@ -1,0 +1,15 @@
+
+:
+java:S1118 "Hide this public constructor.(¹Ìãó8··ıÕÆ/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ç²Çüÿÿÿÿÿ8··ıÕÆ/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¸ãñšøÿÿÿÿ8··ıÕÆ/
+?
+java:S1118"Hide this public constructor.(ãêœàıÿÿÿÿ8··ıÕÆ/
+U	java:S106
+"9Replace this use of System.out or System.err by a logger.(Ï§åç8··ıÕÆ/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(âæî”ÿÿÿÿÿ8··ıÕÆ/
+U	java:S106!"9Replace this use of System.out or System.err by a logger.(ş£¿–8··ıÕÆ/
+H
+java:S1481"&Remove this unused "b" local variable.(Éüä¦ıÿÿÿÿ8ğõ€ÖÆ/
+X	java:S125"<This block of commented-out lines of code should be removed.(Õüø8ğõ€ÖÆ/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(–×¥ôÿÿÿÿÿ8··ıÕÆ/

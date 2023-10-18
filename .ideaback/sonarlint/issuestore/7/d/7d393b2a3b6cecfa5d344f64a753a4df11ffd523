@@ -1,0 +1,11 @@
+
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(»è·êúÿÿÿÿ8Ñ«â¥ý/
+U	java:S106-"9Replace this use of System.out or System.err by a logger.(š«Áî8Ñ«â¥ý/
+„
+java:S1192"bDefine a constant instead of duplicating this literal "ã€‚ã€‚ã€‚ã€‚ã€‚ã€‚ã€‚ã€‚ã€‚ã€‚ã€‚" 4 times.(»è·êúÿÿÿÿ8Ñ«â¥ý/
+…
+java:S1128"cRemove this unused import 'com.llmcu.tulingjiagou.l0905clusterrediscache.service.TestCacheService'.(ÉÚá»úÿÿÿÿ8åôá¥ý/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ÑÔÄ†8Ñ«â¥ý/
+Z	java:S106&"9Replace this use of System.out or System.err by a logger.(¤ÞÐåÿÿÿÿÿ8Ñ«â¥ý/
+c
+java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8Ñ«â¥ý/

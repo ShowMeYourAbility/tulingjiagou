@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../21qianfeng/springboot/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/../21qianfeng/springboot/l02springbootapplication/pom.xml" />
+        <option value="$PROJECT_DIR$/../21qianfeng/springboot/l03enableautoconfiguration/pom.xml" />
+        <option value="$PROJECT_DIR$/../21qianfeng/springboot/l04banner/pom.xml" />
+        <option value="$PROJECT_DIR$/../21qianfeng/springboot/l05applicationyml/pom.xml" />
+        <option value="$PROJECT_DIR$/../21qianfeng/springboot/l07customizedvalue/pom.xml" />
+        <option value="$PROJECT_DIR$/../21qianfeng/springboot/l08safeconfiguration/pom.xml" />
+        <option value="$PROJECT_DIR$/../21qianfeng/springboot/l09profile/pom.xml" />
+        <option value="$PROJECT_DIR$/../21qianfeng/springboot/l12junit/pom.xml" />
+        <option value="$PROJECT_DIR$/../21qianfeng/springboot/l14loglevel/pom.xml" />
+        <option value="$PROJECT_DIR$/../21qianfeng/springboot/l15logconfigfile/pom.xml" />
+        <option value="$PROJECT_DIR$/../21qianfeng/springboot/l17mulenvlogback/pom.xml" />
+        <option value="$PROJECT_DIR$/../21qianfeng/springboot/l18log4j/pom.xml" />
+        <option value="$PROJECT_DIR$/../21qianfeng/springboot/l21staticresources/pom.xml" />
+        <option value="$PROJECT_DIR$/../21qianfeng/springboot/l23json/pom.xml" />
+        <option value="$PROJECT_DIR$/../21qianfeng/springboot/l24interceptor/pom.xml" />
+        <option value="$PROJECT_DIR$/../21qianfeng/springboot/l25globalexception/pom.xml" />
+        <option value="$PROJECT_DIR$/../21qianfeng/springboot/l26async/pom.xml" />
+        <option value="$PROJECT_DIR$/../21qianfeng/springboot/l30quartz/pom.xml" />
+        <option value="$PROJECT_DIR$/../21qianfeng/springboot/l31jdbctemplate/pom.xml" />
+        <option value="$PROJECT_DIR$/../21qianfeng/springboot/l32mybatisxml/pom.xml" />
+        <option value="$PROJECT_DIR$/../21qianfeng/springboot/l35multidatasource/pom.xml" />
+        <option value="$PROJECT_DIR$/../21qianfeng/springboot/l35multidatasource02/pom.xml" />
+        <option value="$PROJECT_DIR$/../21qianfeng/springboot/l59applicationcontext/pom.xml" />
+        <option value="$PROJECT_DIR$/../21qianfeng/springboot/l60beanfactorypostprocessor/pom.xml" />
+        <option value="$PROJECT_DIR$/../21qianfeng/springboot/l61postconstruct/pom.xml" />
+        <option value="$PROJECT_DIR$/../21qianfeng/springboot/l80caffeine/pom.xml" />
+        <option value="$PROJECT_DIR$/../21qianfeng/springboot/l81exception/pom.xml" />
+        <option value="$PROJECT_DIR$/../21qianfeng/springboot/l82cors/pom.xml" />
+        <option value="$PROJECT_DIR$/../21qianfeng/springboot/l83transactionalpropagation/pom.xml" />
+        <option value="$PROJECT_DIR$/../21qianfeng/springboot/l84Configuration/pom.xml" />
+        <option value="$PROJECT_DIR$/../21qianfeng/springboot/pom.xml" />
+        <option value="$PROJECT_DIR$/l01jvm/pom.xml" />
+        <option value="$PROJECT_DIR$/l02mysql/pom.xml" />
+        <option value="$PROJECT_DIR$/l0901redisspringboot/pom.xml" />
+        <option value="$PROJECT_DIR$/l0902redislock/pom.xml" />
+        <option value="$PROJECT_DIR$/l0903singlerediscache/pom.xml" />
+        <option value="$PROJECT_DIR$/l0904clusterrediscache/pom.xml" />
+        <option value="$PROJECT_DIR$/l0905clusterrediscache2/pom.xml" />
+        <option value="$PROJECT_DIR$/l09redis/pom.xml" />
+        <option value="$PROJECT_DIR$/l1001zookeeperclient/pom.xml" />
+        <option value="$PROJECT_DIR$/l1002curator/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

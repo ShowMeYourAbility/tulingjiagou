@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:rabbit="http://www.springframework.org/schema/rabbit"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       https://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/rabbit
+       http://www.springframework.org/schema/rabbit/spring-rabbit.xsd">
+    <!--加载配置文件-->
+    <context:property-placeholder location="classpath:rabbitmq.properties"/>
+
+    <!-- 定义rabbitmq connectionFactory -->
+    <rabbit:connection-factory id="connectionFactory" host="${rabbitmq.host}"
+                               port="${rabbitmq.port}"
+                               username="${rabbitmq.username}"
+                               password="${rabbitmq.password}"
+                               virtual-host="${rabbitmq.virtual-host}"/>
+
+    <bean id="springQueueListener" class="com.llmcu.rabbitmq.listener.SpringQueueListener"/>
+    <bean id="springQueueListener2" class="com.llmcu.rabbitmq.listener.SpringQueueListener2"/>
+    <bean id="fanoutListener1" class="com.llmcu.rabbitmq.listener.FanoutListener"/>
+    <bean id="fanoutListener2" class="com.llmcu.rabbitmq.listener.FanoutListener2"/>
+    <bean id="directListener" class="com.llmcu.rabbitmq.listener.DirectListener"/>
+    <bean id="topicListener1" class="com.llmcu.rabbitmq.listener.TopicListener"/>
+    <bean id="topicListener2" class="com.llmcu.rabbitmq.listener.TopicListener2"/>
+    <bean id="topicListener3" class="com.llmcu.rabbitmq.listener.TopicListener3"/>
+
+    <context:component-scan base-package="com.llmcu.rabbitmq.listener.advance" />
+
+
+    <rabbit:listener-container connection-factory="connectionFactory"
+                               acknowledge="manual" prefetch="2">
+       <rabbit:listener ref="springQueueListener" queue-names="spring_queue"/>
+       <rabbit:listener ref="springQueueListener2" queue-names="spring_queue"/>
+
+        <rabbit:listener ref="fanoutListener1" queue-names="spring_fanout_queue_1"/>
+        <rabbit:listener ref="fanoutListener2" queue-names="spring_fanout_queue_2"/>
+
+        <rabbit:listener ref="directListener" queue-names="spring_direct_queue"/>
+
+        <rabbit:listener ref="topicListener1" queue-names="spring_topic_queue_star"/>
+        <rabbit:listener ref="topicListener2" queue-names="spring_topic_queue_well"/>
+        <rabbit:listener ref="topicListener3" queue-names="spring_topic_queue_well2"/>
+
+
+
+    </rabbit:listener-container>
+
+    <rabbit:listener-container connection-factory="connectionFactory"
+                               acknowledge="manual" prefetch="1" concurrency="1">
+        <rabbit:listener ref="ackListener" queue-names="spring_ack_queue"/>
+        <rabbit:listener ref="qosListener" queue-names="spring_qos_queue"/>
+        <rabbit:listener ref="dlxListener" queue-names="spring_dlx_dl_queue"/>
+        <rabbit:listener ref="dlxDlListener" queue-names="spring_dlx_queue"/>
+    </rabbit:listener-container>
+
+</beans>

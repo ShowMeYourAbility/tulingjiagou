@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Main-Class: com.llmcu.tulingjiagou.l01jvm.day03.Application
+Class-Path: byte-buddy-1.9.12.jar json-path-2.4.0.jar jackson-datatype-j
+ sr310-2.9.8.jar javax.annotation-api-1.3.2.jar snakeyaml-1.23.jar tomca
+ t-embed-websocket-9.0.19.jar spring-jcl-5.1.7.RELEASE.jar spring-boot-t
+ est-2.1.5.RELEASE.jar classmate-1.4.0.jar objenesis-2.6.jar jboss-loggi
+ ng-3.3.2.Final.jar spring-boot-autoconfigure-2.1.5.RELEASE.jar mockito-
+ core-2.23.4.jar tomcat-embed-el-9.0.19.jar log4j-api-2.11.2.jar assertj
+ -core-3.11.1.jar spring-context-5.1.7.RELEASE.jar android-json-0.0.2013
+ 1108.vaadin1.jar spring-boot-starter-tomcat-2.1.5.RELEASE.jar spring-bo
+ ot-starter-test-2.1.5.RELEASE.jar hamcrest-core-1.3.jar spring-expressi
+ on-5.1.7.RELEASE.jar log4j-to-slf4j-2.11.2.jar jackson-module-parameter
+ -names-2.9.8.jar hibernate-validator-6.0.16.Final.jar spring-boot-2.1.5
+ .RELEASE.jar spring-boot-configuration-processor-2.1.5.RELEASE.jar vali
+ dation-api-2.0.1.Final.jar logback-core-1.2.3.jar json-smart-2.3.jar co
+ mmon-1.0-SNAPSHOT.jar tomcat-embed-core-9.0.19.jar byte-buddy-agent-1.9
+ .12.jar fastjson-1.2.73.jar javax.activation-api-1.2.0.jar junit-4.12.j
+ ar spring-boot-starter-logging-2.1.5.RELEASE.jar jaxb-api-2.3.1.jar xml
+ unit-core-2.6.2.jar jackson-datatype-jdk8-2.9.8.jar hamcrest-library-1.
+ 3.jar spring-boot-starter-json-2.1.5.RELEASE.jar spring-web-5.1.7.RELEA
+ SE.jar spring-core-5.1.7.RELEASE.jar jsonassert-1.5.0.jar jul-to-slf4j-
+ 1.7.26.jar spring-boot-test-autoconfigure-2.1.5.RELEASE.jar jol-core-0.
+ 9.jar logback-classic-1.2.3.jar spring-beans-5.1.7.RELEASE.jar jackson-
+ annotations-2.9.0.jar jackson-databind-2.9.8.jar accessors-smart-1.2.ja
+ r lombok-1.18.8.jar jackson-core-2.9.8.jar spring-boot-starter-web-2.1.
+ 5.RELEASE.jar spring-webmvc-5.1.7.RELEASE.jar spring-aop-5.1.7.RELEASE.
+ jar spring-boot-starter-2.1.5.RELEASE.jar slf4j-api-1.7.26.jar asm-5.0.
+ 4.jar spring-test-5.1.7.RELEASE.jar
+

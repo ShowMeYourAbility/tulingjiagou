@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.llmcu.dao.UserDao">
+
+    <select id="allUsers" resultType="com.llmcu.pojo.TUser">
+        SELECT user_id   userId,username,d.ustatus ustatus,uage FROM t_user u left join user_dict d on u.ustatus = d.uvalue
+    </select>
+    <select id="allUsers2" resultType="com.llmcu.pojo.TUser">
+        SELECT user_id   userId,username,d.ustatus ustatus,uage FROM user_dict d left join t_user u on u.ustatus = d.uvalue
+    </select>
+</mapper>

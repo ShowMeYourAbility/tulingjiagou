@@ -1,0 +1,24 @@
+
+r
+java:S11927"PDefine a constant instead of duplicating this literal "lock:product101" 3 times.(´áÿìøÿÿÿÿ8„•ë–ù/
+S
+java:S1128"6Remove this unused import 'org.redisson.RedissonLock'.(»…€ê8Ö£ù/
+L
+java:S5411:"*Use the primitive boolean expression here.(Âÿñİüÿÿÿÿ8í¢¶ù/
+X	java:S125v"<This block of commented-out lines of code should be removed.(«‘ÙÜ8‹ğù°ù/
+r
+java:S1192C"PDefine a constant instead of duplicating this literal "å¼€å§‹åˆ é™¤é”" 3 times.(¸Ûïòÿÿÿÿÿ8„•ë–ù/
+Q
+java:S3740b"/Provide the parametrized type for this generic.(šÔâ£ûÿÿÿÿ8¦­Á‘ù/
+X	java:S125x"<This block of commented-out lines of code should be removed.(øæ ²8‹ğù°ù/
+p
+java:S1128
+"NRemove this unused import 'org.springframework.core.io.DefaultResourceLoader'.(îŸÓ¹üÿÿÿÿ8½ÕÃ‘ù/
+X	java:S125t"<This block of commented-out lines of code should be removed.(ˆÍÜØ8‹ğù°ù/
+u
+java:S1128"SRemove this unused import 'org.springframework.data.redis.core.script.RedisScript'.(ÜâëÏùÿÿÿÿ8¦­Á‘ù/
+L
+java:S5411R"*Use the primitive boolean expression here.(Âÿñİüÿÿÿÿ8×Èñù/
+T
+java:S1128"2Remove this unused import 'org.redisson.Redisson'.(ĞÈ›Ùùÿÿÿÿ8é‚ù/
+X	java:S125r"<This block of commented-out lines of code should be removed.(ã¨°¯8‹ğù°ù/

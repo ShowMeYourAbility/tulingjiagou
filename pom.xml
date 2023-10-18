@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <!--<version>2.1.5.RELEASE</version>-->
+        <version>2.3.12.RELEASE</version>
+        <relativePath/>
+    </parent>
+
+    <groupId>com.llmcu</groupId>
+    <artifactId>tulinjiagou</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+    </properties>
+
+    <modules>
+        <module>l01jvm</module>
+        <module>l09redis</module>
+        <module>l0901redisspringboot</module>
+        <module>l1001zookeeperclient</module>
+        <module>l1002curator</module>
+        <module>l0902redislock</module>
+        <module>l02mysql</module>
+        <module>l0903singlerediscache</module>
+        <module>l0904clusterrediscache</module>
+        <module>l0905clusterrediscache2</module>
+        <module>l1101rabbitmq</module>
+        <module>l1102rabbitmq-spring-producer</module>
+        <module>l1102rabbitmq-spring-consumer</module>
+        <module>l1103rabbitmq-springboot-producer</module>
+        <module>l1103rabbitmq-springboot-consumer</module>
+        <module>l1104rabbitmq-spring-advance-consumer</module>
+        <module>l1104rabbitmq-spring-advance-producer</module>
+        <module>l0501concurrent-os</module>
+        <module>l1501es-aggs</module>
+        <module>l1502es-java</module>
+        <module>l1201sharding-jdbc</module>
+        <module>l1202spi</module>
+        <module>l1110rockdemq</module>
+        <module>l1120kafka</module>
+        <module>l1121kafka-springboot</module>
+        <module>l1111rocketmq-springboot</module>
+        <module>l50algorithm</module>
+        <module>l5001readword</module>
+    </modules>
+
+    <packaging>pom</packaging>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+            <!--<exclusions>
+                <exclusion>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-starter-logging</artifactId>
+                </exclusion>
+            </exclusions>
+            -->
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.llmcu</groupId>
+            <artifactId>common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
+</project>

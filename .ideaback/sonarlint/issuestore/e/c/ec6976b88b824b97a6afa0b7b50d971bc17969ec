@@ -1,0 +1,9 @@
+
+U	java:S106!"9Replace this use of System.out or System.err by a logger.(ÑÔÄ†8â±Ì¥ı/
+U	java:S106/"9Replace this use of System.out or System.err by a logger.(š«Áî8’–¥ı/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(»è·êúÿÿÿÿ8ÏÄ£úü/
+c
+java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8‰Ñ¥ı/
+„
+java:S1192"bDefine a constant instead of duplicating this literal "ã€‚ã€‚ã€‚ã€‚ã€‚ã€‚ã€‚ã€‚ã€‚ã€‚ã€‚" 4 times.(»è·êúÿÿÿÿ8’–¥ı/
+Z	java:S106("9Replace this use of System.out or System.err by a logger.(¤ŞĞåÿÿÿÿÿ8´âü¤ı/

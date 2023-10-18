@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration PUBLIC
+        "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+
+    <context id="MysqlContext" targetRuntime="MyBatis3DynamicSql" defaultModelType="flat">
+        <property name="beginningDelimiter" value="`"/>
+        <property name="endingDelimiter" value="`"/>
+
+        <!-- 插件 -->
+        <plugin type="org.mybatis.generator.plugins.EqualsHashCodePlugin">
+            <property name="useEqualsHashCodeFromRoot" value="true"/>
+        </plugin>
+        <plugin type="org.mybatis.generator.plugins.ToStringPlugin">
+            <property name="useToStringFromRoot" value="true"/>
+        </plugin>
+
+        <commentGenerator type="">
+            <!--<property name="suppressAllComments" value="true"/>-->
+            <property name="suppressDate" value="true"/>
+        </commentGenerator>
+
+        <jdbcConnection driverClass="com.mysql.cj.jdbc.Driver"
+                        connectionURL="jdbc:mysql://192.168.128.243:3306/tulingvip?characterEncoding=UTF-8&amp;useSSL=false&amp;useUnicode=true&amp;serverTimezone=UTC"
+                        userId="root"
+                        password="c1L2~k3J4">
+        </jdbcConnection>
+
+
+        <javaModelGenerator targetPackage="com.llmcu.tulingjiagou.l02mysql.pojo" targetProject="src/main/java"/>
+
+        <sqlMapGenerator targetPackage="mapper" targetProject="src/main/resources"/>
+
+        <javaClientGenerator type="XMLMAPPER" targetPackage="com.llmcu.tulingjiagou.l02mysql.mapper" targetProject="src/main/java"/>
+
+
+        <table tableName="test_mgb">
+            <!--<generatedKey column="id" sqlStatement="MySql"/>-->
+            <columnOverride column="is_chinese" property="chineseOrNot" jdbcType="TINYINT" javaType="byte"/>
+        </table>
+
+    </context>
+</generatorConfiguration>
